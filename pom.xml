@@ -14,7 +14,7 @@
 	<description>maven-project</description>
 
 	  <modules>
-		<module>module-one</module>
+		<module>moduleone</module>
 	  </modules>
 
 
