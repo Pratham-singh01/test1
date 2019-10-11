@@ -26,7 +26,7 @@
                                 <artifactId>dockerfile-maven-plugin</artifactId>
                                 <version>1.4.0</version>
                                 <configuration>
-                                        <repository>http://192.168.105.53:5000/advsearch</repository>
+                                        <repository>192.168.105.53:5000/advsearch</repository>
                                         <tag>${project.version}</tag>
                                         <pullNewerImage>false</pullNewerImage>
 <!--                                        <buildArgs>
