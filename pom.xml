@@ -26,12 +26,15 @@
                                 <artifactId>dockerfile-maven-plugin</artifactId>
                                 <version>1.4.0</version>
                                 <configuration>
-                                        <repository>192.168.105.53:5000/advsearch</repository>
-                                        <tag>${docker.tag}</tag>
-                                        <buildArgs>
-                                                <JAR_FILE>target/${finalName}-${project.version}.jar</JAR_FILE>
-						<JAR>${finalName}-${project.version}.jar</JAR>
+                                        <repository>http://192.168.105.53:5000/advsearch</repository>
+                                        <tag>${project.version}</tag>
+                                        <pullNewerImage>false</pullNewerImage>
+<!--                                        <buildArgs>
+                                                <JAR_FILE>target/maven-project-${project.version}.jar</JAR_FILE>
+						<JAR>maven-project-${project.version}.jar</JAR>
                                         </buildArgs>
+-->
+
                                 </configuration>
                                 <executions>
                                         <execution>
