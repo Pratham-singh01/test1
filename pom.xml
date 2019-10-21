@@ -26,7 +26,7 @@
                                 <artifactId>dockerfile-maven-plugin</artifactId>
                                 <version>1.4.0</version>
                                 <configuration>
-                                        <repository>localhost:5000/test</repository>
+                                        <repository>localhost:5000/king</repository>
                                         <tag>1</tag>
                                         <pullNewerImage>false</pullNewerImage>
 <!--                                        <buildArgs>
