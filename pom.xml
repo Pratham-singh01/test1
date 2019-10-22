@@ -27,7 +27,7 @@
                                 <version>1.4.0</version>
                                 <configuration>
                                         <repository>localhost:5000/kg</repository>
-                                        <tag>${docker.tag}</tag>
+                                        <tag>${BUILD_NUMBER}</tag>
                                         <pullNewerImage>false</pullNewerImage>
 <!--                                        <buildArgs>
                                                 <JAR_FILE>target/maven-project-${project.version}.jar</JAR_FILE>
