@@ -26,8 +26,8 @@
                                 <artifactId>dockerfile-maven-plugin</artifactId>
                                 <version>1.4.0</version>
                                 <configuration>
-                                        <repository>localhost:5000/king</repository>
-                                        <tag>1</tag>
+                                        <repository>localhost:5000/kg</repository>
+                                        <tag>${docker.tag}</tag>
                                         <pullNewerImage>false</pullNewerImage>
 <!--                                        <buildArgs>
                                                 <JAR_FILE>target/maven-project-${project.version}.jar</JAR_FILE>
